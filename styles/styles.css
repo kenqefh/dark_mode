@@ -49,6 +49,7 @@ h1 {
 .top-cards {
     /*border: 1px solid blue;*/
     margin-top: -50px;
+    margin-bottom: 3em;
 }
 
 /* card */
@@ -130,9 +131,12 @@ h1 {
 
 /* overview */
 .overview {
-    /*margin-bottom: 500px;*/
+    padding-bottom: 2em;
 }
 
+h2 {
+    color: var(--gray);
+}
 .card-small {
     /*border: 1px solid green;*/
     display: grid;
