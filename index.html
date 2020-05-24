@@ -6,12 +6,22 @@
     <title>Social Media Dashboard</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="refresh" content="300">
 </head>
 <body>
      <header class="header">
          <div class="wrapper">
-            <h1>Social Media Dashboard</h1>
-            <p class="header-total">Total de Followers: 23, 004</p>
+             <div class="header-grid">
+                 <div>
+                    <h1>Social Media Dashboard</h1>
+                    <p class="header-total">Total Followers: 23, 004</p>
+                 </div>
+                 <div class="dark-mode">
+                     <p class="dark-mode-title">Dark Mode</p>
+                     <input type="checkbox" class="checkbox" id="checkbox">
+                     <label for="checkbox" class="switch"></label>
+                 </div>
+             </div>
          </div>
      </header>
      <section class="top-cards">
@@ -187,5 +197,6 @@
              </div>
          </div>         
      </section>
+     <script src="js/App.js"></script>
 </body>
 </html>

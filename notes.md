@@ -1,0 +1,1 @@
+Static web page built using this tutorial: Responsive Design Mobile first & Dark Mode | Frontend Mentor challenge #1
